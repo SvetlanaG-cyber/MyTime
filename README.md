@@ -1,11 +1,8 @@
-Open projects folder with VS Code and open Terminal. Then run:
-```
-git clone https://github.com/Svetlana-Q-A/MyTime.git
-```
-Once done, open the clonned project in VS Code and run:
-```
-npm i
-```
-Please note that now you need to run to start the test :
-```
-npm
+## Installation
+### Run this commands in terminal
+> 1. git clone https://github.com/SvetlanaG-cyber/MyTimeAssessment.git
+> 2. cd MyTimeAssessment
+> 3. npm i
+> 4. npm t
+ 
+Feel free to reach out to me if you will have any questions 
