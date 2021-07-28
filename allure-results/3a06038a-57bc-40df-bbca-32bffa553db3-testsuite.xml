@@ -1,0 +1,158 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627370226716' stop='1627370228129'>
+    <name>Browser</name>
+    <title>Browser</title>
+    <test-cases>
+        <test-case start='1627370226720' status='failed' stop='1627370227828'>
+            <name>Tab title</name>
+            <title>Tab title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps>
+                <step start='1627370226724' status='passed' stop='1627370227693'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5bf82315-4062-4b6d-b4d8-dec808114f69-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627370227693' status='passed' stop='1627370227720'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='4f0bcedb-b0fe-454d-ae97-40203d2d73c3-attachment.json' type='application/json' size='17'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627370227726' status='passed' stop='1627370227828'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='86b8575e-70ab-4348-a718-a514ae03301c-attachment.png' type='image/png' size='22486'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'qa.intgames.org' == 'Intellectual Games Club'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 'qa.intgames.org' == 'Intellectual Games Club'
+                    at Context.&lt;anonymous> (/Users/svetlana/assessmentTest/wdio_config/test/specs/browser.js:9:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1627370227828' status='broken' stop='1627370227945'>
+            <name>Header is displayed</name>
+            <title>Header is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps>
+                <step start='1627370227829' status='passed' stop='1627370227860'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='0fa025da-6c5d-423d-ac07-15aa34b07579-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='d47e71b5-bbb3-4d29-bbbc-67ef15a1df54-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627370227861' status='passed' stop='1627370227945'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ff602820-58cc-4dc8-8fc6-053600155a02-attachment.png' type='image/png' size='22486'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'isDisplayed' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'isDisplayed' of undefined
+                    at Context.&lt;anonymous> (/Users/svetlana/assessmentTest/wdio_config/test/specs/browser.js:12:6)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1627370227945' status='passed' stop='1627370228027'>
+            <name>App/Pages container is displyed</name>
+            <title>App/Pages container is displyed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps>
+                <step start='1627370227947' status='passed' stop='1627370227984'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e8aa5a62-8b10-4c1c-bff0-62921dfd339b-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='7a084986-95d3-4e0f-a5c3-310323111d4a-attachment.json' type='application/json' size='281'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627370227990' status='passed' stop='1627370228022'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a1815c60-32a3-4515-983f-359c9d4ed404-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='93828724-6b31-404b-a52f-64dad082c44a-attachment.json' type='application/json' size='281'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1627370228027' status='broken' stop='1627370228128'>
+            <name>Footer is displayed</name>
+            <title>Footer is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps>
+                <step start='1627370228028' status='passed' stop='1627370228060'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='95fcd24b-249d-4623-9432-b92dfa3c5c29-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='789564f1-b60a-4230-9830-dae0f8de411e-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627370228061' status='passed' stop='1627370228128'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='791020c9-3c66-4f9c-a0ec-e4f0c55003f2-attachment.png' type='image/png' size='22486'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'isDisplayed' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'isDisplayed' of undefined
+                    at Context.&lt;anonymous> (/Users/svetlana/assessmentTest/wdio_config/test/specs/browser.js:18:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

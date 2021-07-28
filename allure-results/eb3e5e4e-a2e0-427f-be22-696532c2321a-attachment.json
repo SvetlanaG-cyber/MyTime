@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class=\"input-with-icon-container\"]//input[@id=\"search-query\"]"
+}

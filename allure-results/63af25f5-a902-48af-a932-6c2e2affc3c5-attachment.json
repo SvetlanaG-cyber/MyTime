@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//button[text()=\"Go to the next available date\"]"
+}
