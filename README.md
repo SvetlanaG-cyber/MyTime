@@ -8,4 +8,4 @@ npm i
 ```
 Please note that now you need to run to start the test :
 ```
-npm t
+npm
