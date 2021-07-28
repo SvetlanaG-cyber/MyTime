@@ -1,5 +1,4 @@
 import selectors from '../selectors/scenarioFirst.sel';
-import expected from '../expected/scenario.exp';
 import Base from './base.page';
 import { assert } from 'chai';
 
